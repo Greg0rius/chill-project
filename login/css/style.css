@@ -1,0 +1,501 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body, .masuk {
+  line-height: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.masuk {
+  width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/background\ image\ login\ page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .masuk .frame-56 {
+    border-radius: 8px;
+    background: rgba(24, 26, 28, 0.84);
+    margin: 0 26.3px 0 27.7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18.6px 22px 22.6px 24px;
+    width: calc(100% - 54px);
+    box-sizing: border-box;
+  }
+  .masuk .logo {
+    margin: 0 0.2px 16px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .masuk .frame-63 {
+    margin: 0 2px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .masuk .masuk {
+    margin-bottom: 4.6px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--body-large-large-bold-font-family, 'Lato');
+    font-weight: var(--body-large-large-bold-font-weight, 700);
+    font-size: var(--body-large-large-bold-font-size, 18px);
+    letter-spacing: var(--body-large-large-bold-letter-spacing, 0.2px);
+    line-height: var(--body-large-large-bold-line-height, 1.4);
+    color: var(--text-light-primary, #FFFFFF);
+  }
+  .masuk .selamat-datang-kembali {
+    overflow-wrap: break-word;
+    font-family: var(--caption-2-caption-2-regular-font-family, 'Lato');
+    font-weight: var(--caption-2-caption-2-regular-font-weight, 400);
+    font-size: var(--caption-2-caption-2-regular-font-size, 10px);
+    letter-spacing: var(--caption-2-caption-2-regular-letter-spacing, 0.2px);
+    line-height: var(--caption-2-caption-2-regular-line-height, 1.4);
+    color: var(--text-light-primary, #FFFFFF);
+  }
+  .masuk .frame-52 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .masuk .frame-50 {
+    margin: 0 0px 3.5px 0px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .masuk .username {
+    overflow-wrap: break-word;
+    font-family: var(--caption-2-caption-2-medium-font-family, 'Lato');
+    font-weight: var(--caption-2-caption-2-medium-font-weight, 500);
+    font-size: var(--caption-2-caption-2-medium-font-size, 10px);
+    letter-spacing: var(--caption-2-caption-2-medium-letter-spacing, 0.2px);
+    line-height: var(--caption-2-caption-2-medium-line-height, 1.4);
+    color: var(--text-light-primary, #FFFFFF);
+  }
+  .masuk .frame-47 {
+    border-radius: 24px;
+    border: 0.6px solid var(--other-outline-border, rgba(231, 227, 252, 0.23));
+    padding: 7.5px 10.3px 7.5px 10.3px;
+    width: 100%;
+    background-color: #3D4142;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
+  .masuk .masukkan-username {
+    overflow-wrap: break-word;
+    flex-grow: 1;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 8px;
+    margin: 0;
+    font-family: var(--body-medium-medium-regular-font-family, 'Lato');
+    font-weight: var(--body-medium-medium-regular-font-weight, 400);
+    font-size: var(--body-medium-medium-regular-font-size, 9.2px);
+    letter-spacing: var(--body-medium-medium-regular-letter-spacing, 0.1px);
+    line-height: var(--body-medium-medium-regular-line-height, 1.4);
+    color: var(--text-light-secondary, #C1C2C4);
+  }
+  .masuk .password {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .masuk .frame-53 {
+    margin-bottom: 6.9px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .masuk .frame-51 {
+    margin: 0 0.2px 3.5px 0.2px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .masuk .kata-sandi {
+    overflow-wrap: break-word;
+    font-family: var(--caption-2-caption-2-medium-font-family, 'Lato');
+    font-weight: var(--caption-2-caption-2-medium-font-weight, 500);
+    font-size: var(--caption-2-caption-2-medium-font-size, 10px);
+    letter-spacing: var(--caption-2-caption-2-medium-letter-spacing, 0.2px);
+    line-height: var(--caption-2-caption-2-medium-line-height, 1.4);
+    color: var(--text-light-primary, #FFFFFF);
+  }
+  .masuk .frame-49 {
+    border-radius: 24px;
+    border: 0.6px solid var(--other-outline-border, rgba(231, 227, 252, 0.23));
+    padding: 7.5px 10.3px 7.5px 10.3px;
+    width: 100%;
+    background-color: #3D4142;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
+  .masuk .masukkan-kata-sandi {
+    overflow-wrap: break-word;
+    flex-grow: 1;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 8px;
+    margin: 0;
+    font-family: var(--body-medium-medium-regular-font-family, 'Lato');
+    font-weight: var(--body-medium-medium-regular-font-weight, 400);
+    font-size: var(--body-medium-medium-regular-font-size, 9.2px);
+    letter-spacing: var(--body-medium-medium-regular-letter-spacing, 0.1px);
+    line-height: var(--body-medium-medium-regular-line-height, 1.4);
+    color: var(--text-light-secondary, #C1C2C4);    
+  }
+  .masuk .eye-off {
+    margin: 2px 0 1.5px 0;
+    display: flex;
+    width: 11px;
+    height: 9.5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .masuk .vector {
+    width: 11px;
+    height: 9.5px;
+  }
+  .masuk .frame-55 {
+    margin: 0 8.6px 0 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 8.7px);
+    box-sizing: border-box;
+  }
+
+  .masuk .belum-punya-akun-daftar {
+    overflow-wrap: break-word;
+    font-family: var(--caption-2-caption-2-regular-font-family, 'Lato');
+    font-weight: var(--caption-2-caption-2-regular-font-weight, 500);
+    font-size: var(--caption-2-caption-2-regular-font-size, 10px);
+    letter-spacing: var(--caption-2-caption-2-regular-letter-spacing, 0.2px);
+    line-height: var(--caption-2-caption-2-regular-line-height, 1.4);
+    color: var(--text-light-secondary, #C1C2C4);
+  }
+  .masuk .daftar {
+    text-decoration: none;
+    color: var(--text-light-secondary, #FFFFFF);
+  }
+  .masuk .lupa-kata-sandi {
+    overflow-wrap: break-word;
+    font-family: var(--caption-2-caption-2-regular-font-family, 'Lato');
+    font-weight: var(--caption-2-caption-2-regular-font-weight, 400);
+    font-size: var(--caption-2-caption-2-regular-font-size, 10px);
+    letter-spacing: var(--caption-2-caption-2-regular-letter-spacing, 0.2px);
+    line-height: var(--caption-2-caption-2-regular-line-height, 1.4);
+    color: var(--text-light-primary, #FFFFFF);
+    text-decoration: none;
+  }
+  .masuk .button {
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 2px);
+    box-sizing: border-box;
+  }
+  .masuk .button-sign-in {
+    background: var(--other-extra, #3D4142);
+    margin-bottom: 4px;
+    display: flex;
+    padding: 7.5px 0;
+    width: 100%;
+    border-radius: 24px;
+    border: 1px solid var(--other-outline-border, rgba(231, 227, 252, 0.23));
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #3D4142;
+    cursor: pointer;
+  }
+  .masuk .masuk-2 {
+    overflow-wrap: break-word;
+    font-family: var(--caption-2-caption-2-semibold-font-family, 'Lato');
+    font-weight: var(--caption-2-caption-2-semibold-font-weight, 600);
+    font-size: var(--caption-2-caption-2-semibold-font-size, 10px);
+    letter-spacing: var(--caption-2-caption-2-semibold-letter-spacing, 0.2px);
+    line-height: var(--caption-2-caption-2-semibold-line-height, 1.4);
+    color: var(--text-light-primary, #FFFFFF);
+  }
+  .masuk .atau {
+    margin-bottom: 4px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--caption-2-caption-2-medium-font-family, 'Lato');
+    font-weight: var(--caption-2-caption-2-medium-font-weight, 500);
+    font-size: var(--caption-2-caption-2-medium-font-size, 14px);
+    letter-spacing: var(--caption-2-caption-2-medium-letter-spacing, 0.2px);
+    line-height: var(--caption-2-caption-2-medium-line-height, 1.4);
+    color: var(--text-light-disabled, #9D9EA1);
+  }
+  .masuk .button-sign-in-1 {
+    background: var(--other-extra, #3D4142);
+    margin-bottom: 4px;
+    display: flex;
+    padding: 7.5px 0;
+    width: 100%;
+    border-radius: 24px;
+    border: 1px solid var(--other-outline-border, rgba(231, 227, 252, 0.23));
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #3D4142;
+    cursor: pointer;
+  }
+  .masuk .masuk-dengan-google{
+    overflow-wrap: break-word;
+    font-family: var(--caption-2-caption-2-semibold-font-family, 'Lato');
+    font-weight: var(--caption-2-caption-2-semibold-font-weight, 600);
+    font-size: var(--caption-2-caption-2-semibold-font-size, 10px);
+    letter-spacing: var(--caption-2-caption-2-semibold-letter-spacing, 0.2px);
+    line-height: var(--caption-2-caption-2-semibold-line-height, 1.4);
+    color: var(--text-light-primary, #FFFFFF);
+  }
+  .masuk .container {
+    background: url('../img/logo google.svg') 50% / cover no-repeat;
+    margin: 2px 8px;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .masuk .movie-open {
+    margin: 6.2px 5px 6px 0;
+    display: flex;
+    width: 24.6px;
+    height: 19.8px;
+    box-sizing: border-box;
+  }
+  .masuk .masuk-1 {
+    overflow-wrap: break-word;
+    font-family: var(--caption-2-caption-2-semibold-font-family, 'Lato');
+    font-weight: var(--caption-2-caption-2-semibold-font-weight, 600);
+    font-size: var(--caption-2-caption-2-semibold-font-size, 1px);
+    letter-spacing: var(--caption-2-caption-2-semibold-letter-spacing, 0.2px);
+    line-height: var(--caption-2-caption-2-semibold-line-height, 1.4);
+    color: var(--text-light-primary, #FFFFFF);
+  }
+  .masuk .chill {
+    overflow-wrap: break-word;
+    font-family: 'Londrina Solid';
+    font-weight: 400;
+    font-size: 28.9px;
+    line-height: 1.1;
+    color: var(--text-light-primary, #FFFFFF);
+  }
+ @media (min-width: 481px) and (max-width: 768px) {
+  .masuk {
+      padding: 20px;
+      justify-content: center;
+  }
+  
+  .masuk .frame-56 {
+      width: 460px;
+      margin: auto;
+      padding: 30px;
+  }
+
+  .masuk .logo {
+    margin-bottom: 32px;
+  }
+  .masuk .frame-63{
+    margin-bottom: 37px;
+  }
+  .masuk .frame-52{
+    margin-bottom: 37px;
+  }
+  .masuk .frame-53{
+    margin-bottom: 12px;
+  }
+  .masuk .password{
+    margin: 0 4px 37px 4px;
+  }
+  .masuk .password-1{
+    margin-bottom: 38px ;
+  }
+  .masuk .atau {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .masuk .button {
+      width: 100%;
+  }
+
+  .masuk .masukkan-username,
+  .masuk .masukkan-kata-sandi,
+  .masuk .lupa-kata-sandi,
+  .masuk .selamat-datang-kembali,
+  .masuk .belum-punya-akun-daftar {
+      font-size: 16px;
+  }
+  .masuk .username,
+  .masuk .masukkan-kata-sandi {
+      font-size: 18px;
+  }
+
+  .masuk .masuk-dengan-google,
+  .masuk .masuk-2 {
+      font-size: 16px;
+  }
+  .masuk .masuk-1 {
+    font-size: 32px;
+  }
+  .masuk .chill {
+    font-size: 50px;
+  }
+  .masuk .movie-open {
+    width: 42.6px;
+    height: 36.3px;
+  }
+  .masuk .vector,
+  .masuk .vector-1 {
+    width: 18.3px ;
+    height: 15.8px ;
+    margin-top: 2px;
+  }
+  .masuk .container,
+  .masuk .eye-off {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* desktop style */
+@media (min-width: 769px) {
+  .masuk {
+      padding: 40px;
+      justify-content: center;
+  }
+  .masuk .logo {
+    margin-bottom: 32px;
+  }
+  .masuk .frame-63{
+    margin-bottom: 37px;
+  }
+  .masuk .frame-56 {
+      width: 530px;
+      padding: 40px;
+      margin: auto;
+  }
+  .masuk .frame-52{
+    margin-bottom: 37px;
+  }
+  .masuk .frame-53{
+    margin-bottom: 12px;
+  }
+  .masuk .password{
+    margin: 0 4px 37px 4px;
+  }
+  .masuk .password-1{
+    margin-bottom: 38px ;
+  }
+  .masuk .atau {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .masuk .button {
+      width: 100%;
+  }
+
+  .masuk .masukkan-username,
+  .masuk .masukkan-kata-sandi,
+  .masuk .selamat-datang-kembali,
+  .masuk .belum-punya-akun-daftar, 
+  .masuk .lupa-kata-sandi {
+      font-size: 16px;
+  }
+  .masuk .username,
+  .masuk .kata-sandi {
+      font-size: 18px;
+  }
+
+  .masuk .masuk-dengan-google,
+  .masuk .masuk-2 {
+      font-size: 16px;
+  }
+  .masuk .masuk-1 {
+    font-size: 32px;
+  }
+  .masuk .chill {
+    font-size: 50px;
+  }
+  .masuk .movie-open {
+    width: 42.6px;
+    height: 36.3px;
+  }
+  .masuk .vector,
+  .masuk .vector-1 {
+    width: 18.3px ;
+    height: 15.8px ;
+    margin-top: 2px;
+  }
+  .masuk .container,
+  .masuk .eye-off {
+    width: 20px;
+    height: 20px;
+  }
+}
